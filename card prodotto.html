@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.web-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-container {
+    height: 30em;
+    width: 22em;
+    background-color: #FEF7E2;
+    border-radius: 6em;
+    overflow: hidden;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.honey-photo {
+    width: 100%;
+    height: 19.5em;
+    object-fit: cover; 
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    justify-content: space-around; 
+    text-align: center;
+    gap: 20px;
+}
+
+.text-container p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 19px;
+}
+
+.button {
+    background-color:#FFDF7E;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    width: 12em;
+    align-self: center;
+    font-size: 16px;
+    
+}
+</style>
+
+
+<title>Document</title>
+</head>
+<body>
+    <div class="web-page">
+        <div class="card-container">
+            <div class="content-wrapper">
+                <img src="assets/honey.jpg" alt="honey" class="honey-photo">
+                <div class="text-container">
+                    <div class="texts">
+                    <p>100% Bio honey</p>
+                    <p>Italian, not treated</p>
+                    </div>
+                     <div class="price">7$/kg</div>
+                    </div>
+                    <button class="button">Add to cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
